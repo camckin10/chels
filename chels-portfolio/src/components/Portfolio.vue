@@ -23,36 +23,13 @@
     </section>
 <hr/>
 <!--testing button event handler-->
-<div id="example-2">
+<!-- <div id="example-2">
   <!-- `greet` is the name of a method defined below -->
-  <button v-on:click="submit">Submit</button>
-</div>
+  <!--<button v-on:click="submit">Submit</button>
+</div> -->
 </template>
 
-
-
-<script>
-var example2 = new Vue({
-  el: '#example-2',
-  data: {
-    name: 'Vue.js'
-  },
-  // define methods under the `methods` object
-  methods: {
-    submit: function (event) {
-      // `this` inside methods points to the Vue instance
-      alert('Thank you for contacting us !')
-      // `event` is the native DOM event
-      if (event) {
-        alert(event.target.tagName)
-      }
-    }
-  }
-})
-
-// you can invoke methods in JavaScript too
-example2.submit() // => 'Hello Vue.js!'
-</script>
+<!--<script></script>-->
 
 
 
