@@ -3,14 +3,14 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <!--<Portfolio/>-->
-    <Test/>
+    <Backup/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 //import Portfolio from "./components/Portfolio.vue";
-import Test from "./components/Test.vue";
+import Backup from "./components/Backup.vue";
 
 
 
@@ -19,7 +19,7 @@ export default {
   components: {
     HelloWorld,
     //Portfolio,
-    Test
+    Backup
   }
 };
 </script>
