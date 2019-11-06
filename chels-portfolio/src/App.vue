@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!--<img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />-->
     <!--<Portfolio/>-->
     <Backup/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
 //import Portfolio from "./components/Portfolio.vue";
 import Backup from "./components/Backup.vue";
 
@@ -17,7 +17,7 @@ import Backup from "./components/Backup.vue";
 export default {
   name: "app",
   components: {
-    HelloWorld,
+    //HelloWorld,
     //Portfolio,
     Backup
   }
