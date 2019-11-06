@@ -23,80 +23,121 @@
         </div>
         <div class="work">
             <h3>My Work</h3>
-            <button class="collapsible">Open Section 1</button>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <button class="collapsible">Open Section 2</button>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
         <!--will house written/coding projects--> 
-        <p>A Collapsible:</p>
-        <button class="collapsible">Open Collapsible</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>         
+        <!--coding project-->
+        <div class="wrap-collabsible">
+        <input id="collapsible" class="toggle" type="checkbox">
+        <label for="collapsible" class="lbl-toggle">Coding Projects</label>
+        <div class="collapsible-content">
+        <div class="content-inner">
+        <!-- <p>
+            QUnit is by calling one of the object that are embedded in JavaScript, and faster JavaScript program could also used with
+            its elegant, well documented, and functional programming using JS, HTML pages Modernizr is a popular browsers without
+            plug-ins. Test-Driven Development.
+        </p> -->
+            <table>
+                <th>Coding</th>
+                <tr>
+                    <td>Example</td>
+                    <td>Example</td>
+                    <td>Example</td>
+                </tr>
+                <th>Writing</th>
+                <tr>
+                    <td>Example</td>
+                    <td>Example</td>
+                    <td>Example</td>
+                </tr>
+            </table>
+       </div>
+       </div>
+       <!--written projects-->
+     
+  
+</div>   
     </div>
 </div>
+
 
 </template>
 
 
 
-<script>
-//js for collapsible tables 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+<script></script>
 
 
 <style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
 }
 
-.active,.collapsible:hover {
-  background-color: #555;
+input[type='checkbox'] {
+  display: none;
 }
 
-.collapsible:after {
-  content: "\002B";
-  color: white;
+.lbl-toggle {
+  display: block;
+
   font-weight: bold;
-  float: right;
-  margin-left: 5px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 1rem;
+
+  color: #A77B0E;
+  background: #FAE042;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
 }
 
-.active:after {
-  content: "\2212";
+.lbl-toggle:hover {
+  color: #7C5A0B;
 }
 
-.content {
-  padding: 0 18px;
-  max-height: 0;
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  transition: max-height .25s ease-in-out;
 }
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  background: rgba(250, 224, 66, .2);
+  border-bottom: 1px solid rgba(250, 224, 66, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
+
 </style>
