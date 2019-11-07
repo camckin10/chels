@@ -1,11 +1,11 @@
 <template>
 <div class="backup">
     <hr/>
-    <h1>Chelsey McKinney</h1>
-    <h2>Full Stack Web Develoer</h2>
+    <h1>H1 Title</h1>
+    <h2>H2 Title</h2>
     <hr/>
         <div class="about">
-            <h3>Hi I'm Chelsey!</h3>
+            <h3>Hello!This is an H3!</h3>
                 <figure>
                     <img src="http://placekitten.com/200/300" alt="Chelsey at an event" />
                     <figcaption>
@@ -24,37 +24,42 @@
         <div class="work">
             <h3>My Work</h3>
         <!--will house written/coding projects--> 
-        <!--coding project-->
-        <div class="wrap-collabsible">
-        <input id="collapsible" class="toggle" type="checkbox">
-        <label for="collapsible" class="lbl-toggle">Coding Projects</label>
-        <div class="collapsible-content">
-        <div class="content-inner">
-        <!-- <p>
-            QUnit is by calling one of the object that are embedded in JavaScript, and faster JavaScript program could also used with
-            its elegant, well documented, and functional programming using JS, HTML pages Modernizr is a popular browsers without
-            plug-ins. Test-Driven Development.
-        </p> -->
-            <table>
-                <th>Coding</th>
-                <tr>
-                    <td>Example</td>
-                    <td>Example</td>
-                    <td>Example</td>
-                </tr>
-                <th>Writing</th>
-                <tr>
-                    <td>Example</td>
-                    <td>Example</td>
-                    <td>Example</td>
-                </tr>
-            </table>
-       </div>
-       </div>
-       <!--written projects-->
-     
+        <div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div> 
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
   
-</div>   
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div> 
+
+</div>
+
+         
     </div>
 </div>
 
@@ -67,77 +72,47 @@
 
 
 <style>
-.wrap-collabsible {
-  margin-bottom: 1.2rem 0;
+* {
+  box-sizing: border-box;
 }
 
-input[type='checkbox'] {
-  display: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.lbl-toggle {
-  display: block;
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
 
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 1.2rem;
-  text-transform: uppercase;
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
   text-align: center;
-
-  padding: 1rem;
-
-  color: #A77B0E;
-  background: #FAE042;
-
-  cursor: pointer;
-
-  border-radius: 7px;
-  transition: all 0.25s ease-out;
+  background-color: #f1f1f1;
 }
 
-.lbl-toggle:hover {
-  color: #7C5A0B;
-}
-
-.lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
-
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-
-  transition: transform .2s ease-out;
-}
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .25s ease-in-out;
-}
-
-.toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 350px;
-}
-
-.toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.collapsible-content .content-inner {
-  background: rgba(250, 224, 66, .2);
-  border-bottom: 1px solid rgba(250, 224, 66, .45);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  padding: .5rem 1rem;
-}
-
+ 
 </style>
