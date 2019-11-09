@@ -3,7 +3,7 @@
     
     <h1>Chelsey McKinney</h1>
     <h2>Full Stack Developer</h2>
-    <hr/>
+    <hr class="style-eight"/>
         <div id="about">
             <h3>Hello! My name is Chelsey!</h3>
                 <figure style="float:left;">
@@ -26,7 +26,7 @@
               <button>LinkedIn</button>
               <button>Twitter</button>  
         </div>
-       <hr/> 
+       <hr class="style-four"/> 
         <div class="work" style="align-items:center;">
              <h3>Recent Work</h3>
              <div class="grid-container">
@@ -82,10 +82,53 @@
 
 
 <style>
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "CM";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
 img{
   width:333px;
   height:500px;
 }
+
+
+button{
+
+}
+
+
+hr.style-four{
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+}
+
+hr.style-four:after {
+/* content: "~"; */
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+padding: 0 0.25em;
+background: white;
+}
+
 
 
 .grid-container {
@@ -95,7 +138,7 @@ img{
 }
 
 .card{
-  border:2px solid green;
+  border:2px solid purple;
 }
 
 
