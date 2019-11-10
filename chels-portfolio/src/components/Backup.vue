@@ -48,7 +48,7 @@
         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
         The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) 
         This project was made using HTML5, CSS3, and ExpressJS. </p> 
-      <button><a href="https://secret-temple-73467.herokuapp.com/">Readmore</a></button></div>
+      <button><a href="https://secret-temple-73467.herokuapp.com/">Read More</a></button></div>
   </div>
   <div class="card">
      <div class="bg-img"></div>
@@ -58,7 +58,7 @@
         During my internship, I got the opportunity to write the "Theme Of The Week" for Software For Good's blog. 
         The "Theme Of The Week," is when an employee from Software For Good takes time to write whats on their mind. 
         For me, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
-      <button><a href="https://softwareforgood.com/my-love-of-semicolons/">Readmore</a></button></div>
+      <button><a href="https://softwareforgood.com/my-love-of-semicolons/">Read More</a></button></div>
   </div>
   <div class="card">
      <div class="bg-img"></div>
@@ -67,7 +67,7 @@
       <p>An app made for a hackathon called Hack The Gap. 
        “Seshat Swap,” is a community book sharing app that would promote authors of colors, while also sharing books with other users of color. App was made at all female hackathon, Hack The Gap in January 2019. Worked in a group with Lanice Sims, Jenessa White, and Shanise Barona. 
        Made using React and react strap.</p> 
-      <button><a href="https://agitated-swanson-0e797f.netlify.com/">Readmore</a></button></div>
+      <button><a href="https://agitated-swanson-0e797f.netlify.com/">Read More</a></button></div>
   </div>
 </div>
        
@@ -82,6 +82,13 @@
 
 
 <style>
+/*pale purple background color*/
+body{
+  background-color: #c9a0dc;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 hr.style-eight {
     overflow: visible; /* For IE */
     padding: 0;
@@ -91,7 +98,7 @@ hr.style-eight {
     text-align: center;
 }
 hr.style-eight:after {
-    content: "CM";
+    /* content: "CM"; */
     display: inline-block;
     position: relative;
     top: -0.7em;
@@ -138,7 +145,8 @@ background: white;
 }
 
 .card{
-  border:2px solid purple;
+  /* blue violet for card borders*/
+  border:3px solid #8a2be2;
 }
 
 
