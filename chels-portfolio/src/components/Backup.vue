@@ -85,9 +85,11 @@
 /*pale purple background color*/
 body{
   background-color: #c9a0dc;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 
 }
+
+
 
 hr.style-eight {
     overflow: visible; /* For IE */
@@ -114,7 +116,11 @@ img{
 
 
 button{
-
+  Border: 2px solid purple;
+  Padding:5px;
+  Margin:8px;
+  Border-radius:4px;
+  Font-size:18px;
 }
 
 

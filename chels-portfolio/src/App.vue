@@ -25,10 +25,10 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html, body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
