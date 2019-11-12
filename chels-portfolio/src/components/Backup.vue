@@ -35,8 +35,7 @@
     <div class="content">
       <h4>100 Days, Racism, and Starting Over</h4>
       <p>What happens when a junior dev stops coding for 3 months? 
-        What really matters is what happens after the tech reprieve. L
-        earn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
+        What really matters is what happens after the tech reprieve. Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
         Tech Talk given at Minnebar in April 2019. </p> 
       <button><a href="">Read More</a></button> </div>
   </div>
