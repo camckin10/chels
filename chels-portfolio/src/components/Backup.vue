@@ -1,35 +1,28 @@
 <template>
 <div class="backup">
-    
-    <h1>Chelsey McKinney</h1>
-    <h2>Full Stack Developer</h2>
-    <hr class="style-eight"/>
-        <div id="about">
-            <h3>Hello! My name is Chelsey!</h3>
-                <figure style="float:left;">
-                    <img src="img/chelsey.jpg" alt="Chelsey at an event" />
-                    <figcaption>
-                    Photo Credit Jenessa White <a href="http://chelseymckinney.com">chelseymckinney.com</a>
-                    </figcaption>
-                    <!--add social media icons here-->
-                </figure>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
-                </h4>
-              <button>Resume</button>
-              <button>LinkedIn</button>
-              <button>Twitter</button>  
-        </div>
-       <hr class="style-four"/> 
-        <div class="work" style="align-items:center;">
-             <h3>Recent Work</h3>
-             <div class="grid-container">
+    <div class="header" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 789px; width: 414px; z-index: -999998; position: absolute;"/>
+      <hr/>
+      <h1>Hello! I'm Chelsey</h1>
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </h2>
+         <figure>
+        <img src="img/chelsey.jpg" alt="Chelsey at an event" style= "position: absolute; margin: 0px; padding: 0px; border: none; width: 1453.93px; height: 789px; max-width: none; z-index: -999999; left: -519.966px; top: 0px;" />
+            <figcaption>
+                Photo Credit Jenessa White <a href="http://chelseymckinney.com">chelseymckinney.com</a>
+            </figcaption>
+        <!--add social media icons here-->
+        </figure>
+      <button>Resume</button>
+     <button>LinkedIn</button>
+     <button>Twitter</button> 
+
+      <hr/>
+      <div id="about">
+            <h3>Work I'm Proud Of</h3>
+               <div class="grid-container">
   <div class="card">
     <div class="bg-img"></div>
     <div class="content">
@@ -67,13 +60,13 @@
        “Seshat Swap,” is a community book sharing app that would promote authors of colors, while also sharing books with other users of color. App was made at all female hackathon, Hack The Gap in January 2019. Worked in a group with Lanice Sims, Jenessa White, and Shanise Barona. 
        Made using React and react strap.</p> 
       <button><a href="https://agitated-swanson-0e797f.netlify.com/">Read More</a></button></div>
-  </div>
-</div>
-       
-</div>
-</div>
-
+     </div>
+       </div>
+        </div>
+        <footer>Copyright Chelsey McKinney</footer>
+    </div>
 </template>
+
 
 
 
@@ -81,37 +74,29 @@
 
 
 <style>
-/*pale purple background color*/
-body{
-  background-color: #c9a0dc;
-  /* font-family: 'Montserrat', sans-serif; */
+/*styling for header*/
+/* left: 0px; 
+top: 0px; 
+overflow: hidden; 
+margin: 0px; 
+padding: 0px; 
+height: 789px; 
+width: 414px; 
+z-index: -999998; 
+position: absolute; */
 
-}
+/*image styling*/
+/* position: absolute; 
+margin: 0px; 
+padding: 0px; 
+border: none; 
+width: 1453.93px; 
+height: 789px; 
+max-width: none; 
+z-index: -999999; 
+left: -519.966px; 
+top: 0px; */
 
-
-
-hr.style-eight {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-hr.style-eight:after {
-    /* content: "CM"; */
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
-}
-
-img{
-  width:333px;
-  height:500px;
-}
 
 
 button{
@@ -121,26 +106,6 @@ button{
   Border-radius:4px;
   Font-size:18px;
 }
-
-
-hr.style-four{
-padding: 0;
-border: none;
-border-top: medium double #333;
-color: #333;
-text-align: center;
-}
-
-hr.style-four:after {
-/* content: "~"; */
-display: inline-block;
-position: relative;
-top: -0.7em;
-font-size: 1.5em;
-padding: 0 0.25em;
-background: white;
-}
-
 
 
 .grid-container {
