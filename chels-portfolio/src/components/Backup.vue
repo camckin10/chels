@@ -4,10 +4,10 @@
     <!--possibly add nav bar?-->
       <hr/>
       <h1>Hello! I'm Chelsey</h1>
-         <figure style= "height:; width:; float: right; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
-        <img src="img/chelsey.jpg" alt="Chelsey at an event" />
+         <figure style= "heigh:; width:; float: right; margin: 4px 10px 0px 0px; ">
+        <img src="img/chelsey.jpg" style= "heigh:250px; width:250px;" alt="Chelsey at an event" />
             <figcaption>
-                Photo Credit Jenessa White <a href="http://chelseymckinney.com">chelseymckinney.com</a>
+                Photo Credit: Jenessa White
             </figcaption>
         <!--add social media icons here-->
         </figure>
@@ -27,10 +27,7 @@
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
       <button>Resume</button>
      <button>LinkedIn</button>
      <button>Twitter</button> 
@@ -79,6 +76,7 @@
      </div>
        </div>
         </div>
+        <hr/>
         <footer>Copyright Chelsey McKinney</footer>
     </div>
 </template>
