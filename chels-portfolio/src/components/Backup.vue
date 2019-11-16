@@ -88,6 +88,10 @@
 
 
 <style>
+body{
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
 
 h1,h2,h3{
@@ -127,7 +131,7 @@ h1,h2,h3{
 
 .card{
   /* blue violet for card borders*/
-  border:3px solid #8a2be2;
+  border:3px solid #ffffff;
 }
 
 a{
