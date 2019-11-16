@@ -1,4 +1,5 @@
 <template>
+<!--Backup.vue will be home page-->
 <div class="backup">
     <div class="header"/>
     <!--possibly add nav bar?-->
@@ -27,13 +28,13 @@
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
-      <button class="purple-btn">Resume</button>
+      <button class="purple-btn"><a href="">Resume</a></button>
 
-     <button class="purple-btn">LinkedIn</button>
+     <button class="purple-btn"><a href="">LinkedIn</a></button>
 
-     <button class="purple-btn">Twitter</button> 
+     <button class="purple-btn"><a href="">Twitter</a></button> 
 
-      <hr/>
+      <!-- <hr/> -->
       <div id="about">
             <h2>Work I'm Proud Of</h2>
                <div class="grid-container">
@@ -89,7 +90,7 @@
 
 <style>
 body{
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
@@ -131,7 +132,7 @@ h1,h2,h3{
 
 .card{
   /* blue violet for card borders*/
-  border:3px solid #ffffff;
+  border:3px solid black;
 }
 
 a{
