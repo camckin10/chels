@@ -25,15 +25,18 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
 
 html, body {
   font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;  
   text-align: center;
 }
 
 #app {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Lato', sans-serif; 
 }
 
 /*initial vueJS stylings*/
