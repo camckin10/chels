@@ -12,6 +12,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
 body{
   background: -webkit-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
   background: -o-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
@@ -25,9 +28,9 @@ body{
 
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  color: #2c3e50;
+  color: #123c69;
   margin-top: 60px;
 }
 
