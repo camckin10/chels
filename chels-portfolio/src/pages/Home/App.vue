@@ -2,7 +2,16 @@
   <div id="app">
     <h1 class="home-title">Chelsey McKinney</h1>
     <h2 class="home-title">Full Stack Developer</h2>
+
+    <!-- The navigation menu -->
+  <div class="navbar">
+    <a class="active" href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Now</a>
+    <a href="#">Work</a>
+    <a href="#">Contact</a>
   </div>
+</div>
 </template>
 
 <script>
@@ -26,6 +35,43 @@ body{
   font-size:95px;
 }
 
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #ac3b61;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover{ 
+  background-color: #ac3b61 ;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #123c69;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
 
 #app {
   font-family: 'Lato', sans-serif;
@@ -33,6 +79,7 @@ body{
   color: #123c69;
   margin-top: 60px;
 }
+
 
 
 </style>
