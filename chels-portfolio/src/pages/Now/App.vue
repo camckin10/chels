@@ -17,21 +17,34 @@
           I started the challenge in October 2019, and right now I am on Day 22 of the challenge.
           I do daily updates on my <a href="https://twitter.com/TechChelsey">Twitter</a></p>
 
-        <h3>What I've Recently Read</h3>
+        <h3>What I'm Reading and What I've Recently Read</h3>
           <!--go back and add amazon/goodreads link-->
           <ul>
             <li>Washington Black by Esi Edugyan [currently reading]</li>
-            <li>The Book Of Night Women by Marlon James</li>
-            <li>The Nickel Boys by Colson Whitehead</li>
-            <li>Brief History of 7 Killings by Marlon James</li>
+            <li>The Book Of Night Women by Marlon James [completed]</li>
+            <li>The Nickel Boys by Colson Whitehead [completed]</li>
+            <li>Brief History of 7 Killings by Marlon James[completed]</li>
           </ul>
         <h3>What I'm Reading In The Future</h3>
-          <ul>
-            <li>The Year Of Yes by Shonda Rhimes</li>
-            <li>Barracoon by Zora Neal Hurston</li>
-            <li>My Sister, The Serial Killer by Oyinkan Braithwaite</li>
-            <li>John Crow's Devil by Marlon James</li>
+         <ul>
+            <li>Washington Black by Esi Edugyan [currently reading]</li>
+            <li>The Book Of Night Women by Marlon James [completed]</li>
+            <li>The Nickel Boys by Colson Whitehead [completed]</li>
+            <li>Brief History of 7 Killings by Marlon James[completed]</li>
           </ul>
+          <!-- <dl>
+            <dt>The Year Of Yes by Shonda Rhimes</dt>
+              <dd>A memoir of sorts; Rhimes spends the next year saying, 'Yes' to everything.</dd>
+              <br/>
+            <dt>Barracoon by Zora Neal Hurston</dt>
+              <dd>Tells the life story of Cudjo, an 86 year old slave who was interviewed by Zora Neale.</dd>
+              <br/>
+            <dt>My Sister, The Serial Killer by Oyinkan Braithwaite</dt>
+              <dd>A story of identical twins; One, a serial killer, The other, a cleaner for the murders.</dd>
+              <br/>
+            <dt>John Crow's Devil by Marlon James</dt>
+              <dd>Marlon James's debut novel about religion, redemption, and sexual obsession.</dd>  
+          </dl> -->
         <h3>What I'm Listening To Now</h3>
             <ul>
               <li>Acrylic--Leikeli47</li>

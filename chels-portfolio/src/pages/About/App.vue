@@ -19,9 +19,9 @@
             <!--add social media icons here-->
             </figure>
             <h3>
-              I began teaching myself computer programming at night, while working as an education coordinator during the day.
-              Becoming fascinated  in programming, I found online tutorials, and local in person classes. 
-              Discovering that I needed more support on my journey, I signed up for the Full Stack Coding Bootcamp at The University Of Minnesota, where I learned the MERN (Mongo, Express, React, and Node)  stack. 
+              I began teaching myself computer programming three years ago at night, while working as an education coordinator during the day.
+              Becoming fascinated in programming, I found online tutorials, and local in person classes. 
+              Discovering that I needed more support on my programming journey, I signed up for the Full Stack Coding Bootcamp at The University Of Minnesota, where I learned the MERN (Mongo, Express, React, and Node)  stack. 
               After graduating last year, I worked as an intern for a local company called, 'Software For Good’, building an app that promoted local volunteer opportunities. 
             </h3>
             <h3>
