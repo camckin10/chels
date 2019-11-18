@@ -66,6 +66,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body{
   background-color: #eee2dc;
 }
@@ -114,9 +116,7 @@ h1{
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
   //text-align: center;
   color: #123c69;
   margin-top: 60px;

@@ -8,7 +8,7 @@
       <a href="work.html">Work</a>
       <a href="contact.html">Contact</a>
     </div>
-    <h1>About Me</h1>
+    <!-- <h1>About Me</h1> -->
       <div class="about-pg">
         <h1>Hello I'm Chelsey!</h1>
             <figure style= "float: right; margin: 4px 10px 0px 0px; ">
@@ -18,21 +18,22 @@
                 </figcaption>
             <!--add social media icons here-->
             </figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>
+              I began teaching myself computer programming at night, while working as an education coordinator during the day.
+              Becoming fascinated  in programming, I found online tutorials, and local in person classes. 
+              Discovering that I needed more support on my journey, I signed up for the Full Stack Coding Bootcamp at The University Of Minnesota, where I learned the MERN (Mongo, Express, React, and Node)  stack. 
+              After graduating last year, I worked as an intern for a local company called, 'Software For Good’, building an app that promoted local volunteer opportunities. 
+            </h3>
+            <h3>
+              This summer, I transitioned in my new role as a full stack developer working for The City of St. Paul. At my current job, I work on the frontend portions of projects. 
+              Since starting my new position, I have learned VueJS basics, and gained experience in coding practices. 
+              When not working, I remain involved in the Twin Cities tech community by organizing events, volunteering, participating in hackathons, and fundraising. 
+            </h3>
+            <h3>
+              For fun, I’m always trying different desserts, playing video games, or studying Python3. My favorite thing to do is read. I always carry a book with me wherever I go. 
+              You can see what I’m currently reading on my <a href="now.html">‘Now’ page</a>. 
+              Anything else, you can keep up with me on any one of the sites listed on my <a href="contact.html">Contact Page</a>, or download my <a href="">resume</a>. 
+            </h3>
         <hr/>
             <footer>Copyright Chelsey McKinney</footer>
         </div>
@@ -46,6 +47,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body{
   background-color: #eee2dc;
 }
@@ -93,9 +96,7 @@ h1{
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: #123c69;
   margin-top: 60px;
