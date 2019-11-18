@@ -5,11 +5,11 @@
 
     <!-- The navigation menu -->
   <div class="navbar">
-    <a class="active" href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Now</a>
-    <a href="#">Work</a>
-    <a href="#">Contact</a>
+    <a class="active" href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="now.html">Now</a>
+    <a href="work.html">Work</a>
+    <a href="contact.html">Contact</a>
   </div>
 </div>
 </template>
@@ -49,7 +49,7 @@ body{
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
