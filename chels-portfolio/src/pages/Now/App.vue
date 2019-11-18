@@ -27,10 +27,10 @@
           </ul>
         <h3>What I'm Reading In The Future</h3>
          <ul>
-            <li>Washington Black by Esi Edugyan [currently reading]</li>
-            <li>The Book Of Night Women by Marlon James [completed]</li>
-            <li>The Nickel Boys by Colson Whitehead [completed]</li>
-            <li>Brief History of 7 Killings by Marlon James[completed]</li>
+            <li>The Year Of Yes by Shonda Rhimes</li>
+            <li>Barracoon by Zora Neal Hurston</li>
+            <li>My Sister, The Serial Killer by Oyinkan Braithwaite</li>
+            <li>John Crow's Devil by Marlon James</li>
           </ul>
           <!-- <dl>
             <dt>The Year Of Yes by Shonda Rhimes</dt>
@@ -54,17 +54,6 @@
               <li>Amala--Doja Cat</li>
               <li>Initially go through the <a href="https://www.npr.org/2017/07/24/538387823/turning-the-tables-150-greatest-albums-made-by-women">150 Albums Made By Women(NPR)</a></li>
             </ul>
-            <!--description list-->
-          <!-- <dl>
-            <dt>study</dt>
-            <dd>The devotion of time and attention to acquiring knowledge on an academic subject, especially by means of books</dd>
-            <dt>design</dt>
-            <dd>A plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made</dd>
-            <dd>Purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</dd>
-            <dt>business</dt>
-            <dt>work</dt>
-            <dd>A person's regular occupation, profession, or trade</dd>
-          </dl> -->
         <hr/>
         <h4>Updated November 18, 2019</h4>
         <footer>Copyright Chelsey McKinney</footer>
@@ -126,6 +115,10 @@ body{
 h1{
   color:#123c69;
   text-align: center;
+}
+
+h3{
+  color:#ac3b61;
 }
 
 #app {
