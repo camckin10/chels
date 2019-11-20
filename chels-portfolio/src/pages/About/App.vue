@@ -30,9 +30,12 @@
               When not working, I remain involved in the Twin Cities tech community by organizing events, volunteering, participating in hackathons, and fundraising. 
             </h3>
             <h3>
-              For fun, I’m always trying different desserts, playing video games, or studying Python3. My favorite thing to do is read. I always carry a book with me wherever I go. 
-              You can see what I’m currently reading on my <a href="now.html">‘Now’ page</a>. 
+              As a woman of color in tech, I feel that I have to create new ways to make sure I am helping myself and my community. 
+              I will continue to assist in teaching the next generation of women and POC coder. I’m always trying different desserts, playing video games, or studying Python3. 
+              I follow the sport figure skating, and feel that Russia has strong figure skaters, but Canada is coming in a very close second, very close. 
+              My favorite thing to do is read. I always carry a book with me wherever I go. You can see what I’m currently reading on my <a href="now.html">‘Now’ page</a>.
               Anything else, you can keep up with me on any one of the sites listed on my <a href="contact.html">Contact Page</a>, or download my <a href="">resume</a>. 
+
             </h3>
         <hr/>
             <footer>Copyright Chelsey McKinney</footer>

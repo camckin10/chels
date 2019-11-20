@@ -25,7 +25,7 @@
             <li>The Nickel Boys by Colson Whitehead [completed]</li>
             <li>Brief History of 7 Killings by Marlon James[completed]</li>
           </ul>
-        <h3>What I'm Reading In The Future</h3>
+        <h3>What I'm Reading Next</h3>
          <ul>
             <li>The Year Of Yes by Shonda Rhimes</li>
             <li>Barracoon by Zora Neal Hurston</li>
