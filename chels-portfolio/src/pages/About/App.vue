@@ -53,7 +53,11 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body{
-  background-color: #eee2dc;
+  // background-color: #eee2dc;
+  background: -webkit-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: -o-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: -moz-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
 }
 
 /* Style the navigation menu */

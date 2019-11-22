@@ -9,6 +9,9 @@
       </div>
     <h1>Contact Page</h1>
       
+      <!--table w/2 rows + 2 columns-->
+      <!--Email,LinkedIn,Resume,Twitter-->
+      <mdb-icon far icon="envelope" />
   </div>
 </template>
 
