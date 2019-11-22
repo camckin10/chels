@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- <h1>Chelsey McKinney</h1> -->
      <div class="navbar">
         <a class="active" href="home.html">Home</a>
         <a href="about.html">About</a>
@@ -7,12 +8,31 @@
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </div>
-    <h1>Contact Page</h1>
-      
-      <!--table w/2 rows + 2 columns-->
-      <!--Email,LinkedIn,Resume,Twitter-->
-      <mdb-icon far icon="envelope" />
+      <div class="contact">
+        <h2>Contact</h2>
+        <!--table w/2 rows + 2 columns-->
+        <!--Email,LinkedIn,Resume,Twitter-->
+        <!-- <button>Button</button> -->
+          <div class="grid-container">
+              <div class="content">
+                <button class="contact-btn"><a href="">Download Resume</a></button> 
+              </div>  
+          
+           <div class="content">
+              <button class="contact-btn"><a href="">LinkedIn</a></button>
+            </div>
+
+          <div class="content">
+            <button class="contact-btn"><a href="">Send Me An Email</a></button>
+          </div>
+
+          <div class="content">
+              <button class="contact-btn"><a href="">Twitter</a></button>
+          </div>
+        </div>  
+      </div>  
   </div>
+
 </template>
 
 <script>
@@ -31,6 +51,8 @@ body{
 
 /* Style the navigation menu */
 .navbar {
+  // margin: 0;
+  // padding: 0;
   width: 100%;
   background-color: #ac3b61;
   overflow: auto;
@@ -65,6 +87,45 @@ body{
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
+
+/*card stylings*/
+.contact-btn{
+   /* default for <button>, but useful for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  /* margin: 2px 0; */
+  margin:10px;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent #123c69;
+  border-radius: 4px;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #ac3b61;
+  Font-size:18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+// .card{
+//   /* blue violet for card borders*/
+//   border:3px solid #123c69;
+// }
+
+a{
+  color:#ffffff;
 }
 
 #app {
