@@ -23,7 +23,7 @@
             </div>
 
           <div class="content">
-            <button class="contact-btn"><a href="">Send Me An Email</a></button>
+            <button class="contact-btn"><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Me An Email</a></button>
           </div>
 
           <div class="content">
