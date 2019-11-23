@@ -15,11 +15,13 @@
         <!-- <button>Button</button> -->
           <div class="grid-container">
               <div class="content">
+                <!--update resume before adding proper link-->
+                <!--copy/paste pdf code from chelseymckinney domain-->
                 <button class="contact-btn"><a href="">Download Resume</a></button> 
               </div>  
           
            <div class="content">
-              <button class="contact-btn"><a href="">LinkedIn</a></button>
+              <button class="contact-btn"><a href="https://www.linkedin.com/in/chelseymckinney/">LinkedIn</a></button>
             </div>
 
           <div class="content">
@@ -27,7 +29,7 @@
           </div>
 
           <div class="content">
-              <button class="contact-btn"><a href="">Twitter</a></button>
+              <button class="contact-btn"><a href="https://twitter.com/TechChelsey">Twitter</a></button>
           </div>
         </div>  
       </div>  
