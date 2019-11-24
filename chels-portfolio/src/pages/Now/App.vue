@@ -7,6 +7,7 @@
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </div>
+      <hr/>
     <h1>My Now Page</h1>
     <h2>Inspired by Derek Siver's ,<a href="https://sivers.org/nowff">'now page movement'</a>, a now page answers the question, "What Are You Focused On Now?"</h2>
     <div class="now-pg">
@@ -71,10 +72,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body{
-  background: -webkit-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: -o-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: -moz-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background-color: #ffff;
+  
 }
 
 .home-title{

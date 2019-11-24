@@ -10,6 +10,7 @@
           <a href="contact.html">Contact</a>
         </div>
     </div>
+    <hr/>
     <h1>Projects</h1>
     <div id="about">
       <div class="grid-container">
@@ -73,10 +74,7 @@ export default {
 
 
 body{
-   background: -webkit-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: -o-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: -moz-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+   background-color: #ffff;
   
 }
 
