@@ -40,7 +40,10 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
 
 body{
-  background-color: #eee2dc;
+   background: -webkit-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: -o-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: -moz-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
 }
 
 

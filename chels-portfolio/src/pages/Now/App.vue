@@ -71,14 +71,20 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body{
-  background-color: #eee2dc;
-  padding:10px;
+  background: -webkit-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: -o-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: -moz-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+  background: linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+}
+
+.home-title{
+  font-size:95px;
 }
 
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  background-color: #ac3b61;
+  // background-color: #ac3b61;
   overflow: auto;
 }
 
@@ -86,9 +92,9 @@ body{
 .navbar a {
   float: left;
   padding: 12px;
-  color: white;
+  color: #123c69;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 35px;
   width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
@@ -99,9 +105,9 @@ body{
 }
 
 /* Style the current/active link */
-.navbar a.active {
-  background-color: #123c69;
-}
+// .navbar a.active {
+//   background-color: #123c69;
+// }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
@@ -109,7 +115,7 @@ body{
     float: none;
     display: block;
     width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    //text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
 

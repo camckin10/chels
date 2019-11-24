@@ -54,10 +54,8 @@ export default {
 
 body{
   // background-color: #eee2dc;
-  background: -webkit-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: -o-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: -moz-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
-  background: linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background-color:#edc7b7;
+  
 }
 
 /* Style the navigation menu */

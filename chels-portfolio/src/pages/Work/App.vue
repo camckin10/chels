@@ -73,18 +73,17 @@ export default {
 
 
 body{
-  background: -webkit-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: -o-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: -moz-linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
-  background: linear-gradient(110deg, #edc7b7 60%, #ffff 60%);
+   background: -webkit-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: -o-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: -moz-linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
+  background: linear-gradient(110deg, #ffff 60%, #edc7b7 60%);
   
 }
-
 
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  // border:2px solid #ac3b61;
+  // background-color: #ac3b61;
   overflow: auto;
 }
 
@@ -94,17 +93,17 @@ body{
   padding: 12px;
   color: #123c69;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 35px;
   width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
- /* Add a background color on mouse-over */
- .navbar a:hover{ 
-   background-color: #ac3b61;
+/* Add a background color on mouse-over */
+.navbar a:hover{ 
+  background-color: #ac3b61 ;
 }
 
-// // /* Style the current/active link */
+/* Style the current/active link */
 // .navbar a.active {
 //   background-color: #123c69;
 // }
