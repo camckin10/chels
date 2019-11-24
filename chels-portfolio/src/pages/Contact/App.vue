@@ -9,28 +9,21 @@
         <a href="contact.html">Contact</a>
       </div>
       <div class="contact">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <!--table w/2 rows + 2 columns-->
         <!--Email,LinkedIn,Resume,Twitter-->
         <!-- <button>Button</button> -->
           <div class="grid-container">
-              <div class="content">
-                <!--update resume before adding proper link-->
-                <!--copy/paste pdf code from chelseymckinney domain-->
-                <button class="contact-btn"><a href="">Download Resume</a></button> 
-              </div>  
-          
-           <div class="content">
-              <button class="contact-btn"><a href="https://www.linkedin.com/in/chelseymckinney/">LinkedIn</a></button>
-            </div>
-
-          <div class="content">
-            <button class="contact-btn"><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Me An Email</a></button>
-          </div>
-
-          <div class="content">
-              <button class="contact-btn"><a href="https://twitter.com/TechChelsey">Twitter</a></button>
-          </div>
+            <!--current contact pg stylings-->
+            <!--font awesome icon-->
+              <!--Resume-->
+              <a href=""><i class="far fa-file fa-6x"></i></a>
+              <!--email-->
+             <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="far fa-envelope fa-6x"></i></a>
+              <!--LinkedIn-->
+             <a href="https://www.linkedin.com/in/chelseymckinney/"><i class="fab fa-linkedin fa-6x"></i></a>
+              <!--Twitter-->
+              <a href="https://twitter.com/TechChelsey"><i class="fab fa-twitter fa-6x"></i></a>    
         </div>  
       </div>  
   </div>
@@ -89,6 +82,11 @@ body{
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
+
+/*font awesome stylings*/
+i{
+  color:#123c69;
 }
 
 /*card stylings*/

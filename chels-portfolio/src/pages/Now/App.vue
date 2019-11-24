@@ -72,6 +72,7 @@ export default {
 
 body{
   background-color: #eee2dc;
+  padding:10px;
 }
 
 /* Style the navigation menu */
