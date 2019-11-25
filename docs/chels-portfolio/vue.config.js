@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
-  publicPath: '/chels/',
+  publicPath: '/chels/docs/chels-portfolio',
 
     pages: {
         'index': {
