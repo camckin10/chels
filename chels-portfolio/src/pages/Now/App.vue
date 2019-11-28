@@ -32,6 +32,7 @@
               Tech Talk given at Minnebar in April 2019. </p> 
             <button class="purple-btn"><a href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read More</a></button> </div>
         </div>
+
         <div class="card">
           <div class="bg-img"></div>
           <div class="content">
@@ -42,14 +43,17 @@
               This project was made using HTML5, CSS3, and ExpressJS. </p> 
             <button class="purple-btn"><a href="https://secret-temple-73467.herokuapp.com/">Read More</a></button></div>
         </div>
+
         <div class="card">
-          <div class="bg-img"></div>
+          <div class="bg-img"> 
+          <img src="img/semicolon.png" style= "height:60px; width:50px;" alt="semicolon" /></div>
           <div class="content">
             <h3>My Love Of Semicolons</h3>
             <p>Last summer, I worked as an intern for a company called Software for Good.  
               During my internship, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
             <button class= "purple-btn"><a href="https://softwareforgood.com/my-love-of-semicolons/">Read More</a></button></div>
         </div>
+
         <div class="card">
           <div class="bg-img"></div>
           <div class="content">
@@ -172,7 +176,7 @@ h1{
 
 h2{
   text-align: center;
-  font-size:25px;
+  font-size:22px;
 
 }
 
