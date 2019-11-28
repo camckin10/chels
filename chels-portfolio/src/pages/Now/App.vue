@@ -21,6 +21,7 @@
           <hr/>
       <!--Recent work section-->
           <h2>Labors Of Love</h2>
+      <!--include dev.to link posts of 100days talk, jr. devs talk, and doing the challenge again-->
       <div class="grid-container">
         <div class="card">
           <div class="bg-img"></div>
@@ -29,7 +30,7 @@
             <p>What happens when a junior dev stops coding for 3 months? 
               What really matters is what happens after the tech reprieve. Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
               Tech Talk given at Minnebar in April 2019. </p> 
-            <button class="purple-btn"><a href="">Read More</a></button> </div>
+            <button class="purple-btn"><a href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read More</a></button> </div>
         </div>
         <div class="card">
           <div class="bg-img"></div>
