@@ -1,10 +1,10 @@
 <template>
   <div id="app">
       <div class="navbar">
-        <a class="active" href="home.html">Home</a>
+        <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="now.html">Now</a>
-        <a href="work.html">Work</a>
+        <!-- <a href="work.html">Work</a> -->
         <a href="contact.html">Contact</a>
       </div>
       <hr/>

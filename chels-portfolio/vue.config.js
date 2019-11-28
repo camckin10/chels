@@ -21,12 +21,12 @@ module.exports = {
             title: 'Now'
             //chunks: [ 'chunk-vendors', 'chunk-common', 'about' ]
           }, 
-          'work': {
-            entry: './src/pages/Work/main.js',
-            template: 'public/index.html',
-            title: 'Work'
-            //chunks: [ 'chunk-vendors', 'chunk-common', 'about' ]
-          },
+          // 'work': {
+          //   entry: './src/pages/Work/main.js',
+          //   template: 'public/index.html',
+          //   title: 'Work'
+          //   //chunks: [ 'chunk-vendors', 'chunk-common', 'about' ]
+          // },
           'contact': {
             entry: './src/pages/Contact/main.js',
             template: 'public/index.html',
