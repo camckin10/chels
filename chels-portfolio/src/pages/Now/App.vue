@@ -60,6 +60,40 @@
             Made using React and react strap. </p> 
             <button class="purple-btn"><a href="https://agitated-swanson-0e797f.netlify.com/">Read More</a></button></div>
           </div>
+          <!--adding dev.to posts + ignite talk-->
+          <!--dev.to post #1 : 100 days tips-->
+          <div class="card">
+            <div class="bg-img"></div>
+              <div class="content">
+                <h3>The Jr. Dev's Guide To Surviving The 100 Days Of Code Challenge</h3>
+                <p>A post about surviving the 100 Days Of Code Challenge. This article was originally given as a talk at the Minneapolis Jr. Dev Meetup in July 2019.</p> 
+                <button class="purple-btn"><a href="">Read More</a></button></div>
+            </div> 
+
+          <!--ignite talk-->
+          <div class="card">
+            <div class="bg-img"></div>
+              <div class="content">
+                <h3>DevOps Minneapolis Ignite Talk</h3>
+                <p>An Ignite Talk I gave during DevOps Minneapolis in August 2019. This ignite talk is a 5 min version of a talk I gave at Minnebar in April 2019. </p> 
+                <button class="purple-btn"><a href="">Read More</a></button></div>
+            </div> 
+          <!--dev.to post #2: 2nd time doing challenge -->
+
+            <div class="card">
+            <div class="bg-img"></div>
+              <div class="content">
+                <h3>My 2nd Time Doing The 100 Days Of Code Challenge</h3>
+                <p>Dev.to post about participating in the 100 days of code challenge a second time.</p> 
+                <button class="purple-btn"><a href="">Read More</a></button></div>
+            </div> 
+
+
+
+
+        
+
+
        </div>
         <hr/>
         <h4>Updated November 26, 2019</h4>
