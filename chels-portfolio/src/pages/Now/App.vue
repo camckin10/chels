@@ -28,7 +28,7 @@
           <div class="content">
            <h3>100 Days, Racism, and Starting Over</h3>
             <p>What happens when a junior dev stops coding for 3 months? 
-              What really matters is what happens after the tech reprieve. Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
+              Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
               Tech Talk given at Minnebar in April 2019. </p> 
             <button class="purple-btn"><a href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read More</a></button> </div>
         </div>
@@ -37,8 +37,8 @@
           <div class="content">
             <h3>Shit Black Parents Say Lorem Ipsum</h3>
             <p>A lorem ipsum generator I made as an homage to Black Parents sayings. 
-              Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-              The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) 
+              Lorem ipsum, or lipsum is dummy text used in laying out print, web design, and graphics.
+              
               This project was made using HTML5, CSS3, and ExpressJS. </p> 
             <button class="purple-btn"><a href="https://secret-temple-73467.herokuapp.com/">Read More</a></button></div>
         </div>
@@ -47,16 +47,15 @@
           <div class="content">
             <h3>My Love Of Semicolons</h3>
             <p>Last summer, I worked as an intern for a company called Software for Good.  
-              During my internship, I got the opportunity to write the "Theme Of The Week".This is when an employee from Software For Good takes time to write whats on their mind. 
-              For me, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
+              During my internship, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
             <button class= "purple-btn"><a href="https://softwareforgood.com/my-love-of-semicolons/">Read More</a></button></div>
         </div>
         <div class="card">
           <div class="bg-img"></div>
           <div class="content">
             <h3>Seshat Swap</h3>
-            <p>An app made during the 2019 'Hack The Gap' hackathon. 'Hack The Gap' is an all female hackathon.
-            “Seshat Swap,” is a community book sharing app that would promote authors of colors, and share books with other users of color. Worked in a group with Lanice Sims, Jenessa White, and Shanise Barona. 
+            <p>An app made during the 2019 'Hack The Gap' hackathon. 
+            “Seshat Swap,” is a community book sharing app that would promote and share books with other users of color. Worked in a group with Lanice Sims, Jenessa White, and Shanise Barona. 
             Made using React and react strap. </p> 
             <button class="purple-btn"><a href="https://agitated-swanson-0e797f.netlify.com/">Read More</a></button></div>
           </div>
@@ -75,7 +74,7 @@
             <div class="bg-img"></div>
               <div class="content">
                 <h3>DevOps Minneapolis Ignite Talk</h3>
-                <p>An Ignite Talk I gave during DevOps Minneapolis in August 2019. This ignite talk is a 5 min version of a talk I gave at Minnebar in April 2019. </p> 
+                <p>An Ignite Talk I gave during DevOps Minneapolis in August 2019. The ignite was about starting over in programming after not coding for 3 months. This ignite talk is a 5 min version of a talk I gave at Minnebar in April 2019. </p> 
                 <button class="purple-btn"><a href="https://www.youtube.com/watch?v=SrrA2o2BkdI">Watch Now</a></button></div>
             </div> 
           <!--dev.to post #2: 2nd time doing challenge -->
@@ -84,19 +83,23 @@
             <div class="bg-img"></div>
               <div class="content">
                 <h3>My 2nd Time Doing The 100 Days Of Code Challenge</h3>
-                <p>Dev.to post about participating in the 100 days of code challenge a second time.</p> 
+                <p>Dev.to post about participating in the 100 days of code challenge a second time. I'm doing the challenge for the second time in a year. :) </p> 
                 <button class="purple-btn"><a href="https://dev.to/camckin10/my-2nd-time-doing-the-100daysofcode-challenge-2246">Read More</a></button></div>
             </div> 
 
-
-
-
-        
-
+          <!--SFG TOTW--Universe will align-->
+          <div class="card">
+            <div class="bg-img"></div>
+              <div class="content">
+                <h3>The Universe Will Align</h3>
+                <p>For my final week of my internship with Software For Good, I wrote the Theme Of The Week. The blog post is about seeing the positive of “moving on.” I loved writing it. I hope you enjoy! </p> 
+                <button class="purple-btn"><a href="https://softwareforgood.com/the-universe-will-align/">Read More</a></button>
+                </div>
+            </div> 
 
        </div>
         <hr/>
-        <h4>Updated November 26, 2019</h4>
+        <h4>Updated November 28, 2019</h4>
         <footer>Copyright Chelsey McKinney</footer>
     </div>
   </div>
@@ -161,6 +164,7 @@ body{
   }
 }
 
+/*header stylings*/
 h1{
   color:#123c69;
   text-align: center;
@@ -173,9 +177,9 @@ h2{
 }
 
 h3{
-  color:#ac3b61;
+  color:block;
   text-align: center;
-  font-size:25px;
+  font-size:20px;
 
 }
 
@@ -201,6 +205,7 @@ ul{
 
   /* size comes from text & padding (no width/height) */
   padding: 0.5em 1em;
+ 
 
   /* make sure colors have enough contrast! */
   color: #ffffff;
@@ -217,6 +222,9 @@ ul{
 .card{
   /* blue violet for card borders*/
   border:3px solid #123c69;
+  padding-left: 6px;
+  font-size: 18px;
+  // overflow-wrap: break-word;
 }
 
 
