@@ -46,7 +46,8 @@
 
         <div class="card">
           <div class="bg-img"> 
-          <img src="img/semicolon.png" style= "height:60px; width:50px;" alt="semicolon" /></div>
+          <!-- <img src="img/semicolon.png" style= "height:60px; width:50px;" alt="semicolon" />-->
+          </div>
           <div class="content">
             <h3>My Love Of Semicolons</h3>
             <p>Last summer, I worked as an intern for a company called Software for Good.  
@@ -107,6 +108,7 @@
         <footer>Copyright Chelsey McKinney</footer>
     </div>
   </div>
+  
 
 
 
@@ -140,11 +142,11 @@ body{
 /* Navigation links */
 .navbar a {
   float: left;
-  padding: 12px;
+  padding: 18px;
   color: #123c69;
   text-decoration: none;
   font-size: 35px;
-  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
