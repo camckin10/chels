@@ -10,7 +10,7 @@
       <hr/>
     <h1>Now Page</h1>
     <div class="now-pg">
-      <h3>Inspired by Derek Siver's ,<a href="https://sivers.org/nowff">'now page movement'</a>, a now page answers the question, "What Are You Focused On Now?"</h3>
+      <h3>Inspired by Derek Siver's,<a href="https://sivers.org/nowff">'now page'</a> movement, a now page answers the question, "What Are You Focused On Now?"</h3>
         <ul>
           <li><b>Current Job:</b> Full Stack Developer for The City of St.Paul</li>
           <li><b>For Fun:</b> I am doing the <a href="https://www.100daysofcode.com/">#100DaysOfCode Challenge</a> for a second time. 
@@ -123,10 +123,10 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-body{
-  background-color: #ffff;
+// body{
+   
   
-}
+// }
 
 .home-title{
   font-size:95px;
@@ -142,10 +142,11 @@ body{
 /* Navigation links */
 .navbar a {
   float: left;
-  padding: 18px;
+  padding: 15px;
   color: #123c69;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 30px;
+  // border: 1px solid black;
   width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }

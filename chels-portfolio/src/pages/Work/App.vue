@@ -1,7 +1,38 @@
 <template>
   <div id="app">
+    <!--testing toggable headers-->
+    <div id="London" class="tabcontent">
+  <h1>London</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+
+
+
+
      <!-- The navigation menu -->
-    <div class="header">
+
+    <!-- <div class="header">
         <div class="navbar">
           <a class="active" href="home.html">Home</a>
           <a href="about.html">About</a>
@@ -9,9 +40,13 @@
           <a href="work.html">Work</a>
           <a href="contact.html">Contact</a>
         </div>
-    </div>
+    </div> -->
     <hr/>
-    <h1>Projects</h1>
+
+
+
+
+    <!-- <h1>Projects</h1>
     <div id="about">
       <div class="grid-container">
         <div class="card">
@@ -52,7 +87,7 @@
             <button class="purple-btn"><a href="https://agitated-swanson-0e797f.netlify.com/">Read More</a></button></div>
           </div>
        </div>
-      </div>
+      </div> -->
         <hr/>
         <footer>Copyright Chelsey McKinney</footer>
     </div>
@@ -60,13 +95,56 @@
 </template>
 
 <script>
+//import '.../header.js';
+
+
 export default {
   name: 'Work'
+  
 }
+
 </script>
 
 <style lang="scss">
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+
+/*testing toggable header stylings*/
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+
+/*end toggable header stylings*/
+
 
 // body{
 //   background-color: #eee2dc;
