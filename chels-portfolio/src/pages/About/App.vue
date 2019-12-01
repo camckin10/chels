@@ -14,9 +14,9 @@
         <h1>Hello I'm Chelsey!</h1>
             <figure style= "float: right; margin: 4px 10px 0px 0px; ">
             <img src="img/chelsey.jpg" style= "height:280px; width:250px;" alt="Chelsey at an event" />
-                <figcaption>
+                <i><figcaption>
                     Photo Credit: Jenessa White
-                </figcaption>
+                </figcaption></i>
             <!--add social media icons here-->
             </figure>
             <h3>
@@ -30,14 +30,14 @@
               Since starting my new position, I have learned VueJS basics, and gained experience in coding practices. 
               When not working, I remain involved in the Twin Cities tech community by organizing events, volunteering, participating in hackathons, and fundraising. 
             </h3>
-            <h3>
+            <h4>
               As a woman of color in tech, I feel that I have to create new ways to make sure I am helping myself and my community. 
               I will continue to assist in teaching the next generation of women and POC coder. I’m always trying different desserts, playing video games, or studying Python3. 
               I follow the sport figure skating, and feel that Russia has strong figure skaters, but Canada is coming in a very close second, very close. 
-              My favorite thing to do is read. I always carry a book with me wherever I go. You can see what I’m currently reading on my <a href="now.html">‘Now’ page</a>.
-              Anything else, you can keep up with me on any one of the sites listed on my <a href="contact.html">Contact Page</a>, or download my <a href="">resume</a>. 
+              My favorite thing to do is read. I always carry a book with me wherever I go. You can see what I’m currently reading on my <a class="about-link" href="now.html">‘Now’ page</a>.
+              Anything else, you can keep up with me on any one of the sites listed on my <a class="about-link" href="contact.html">Contact Page</a>, or download my <a class="about-link" href="">resume</a>. 
 
-            </h3>
+            </h4>
             <br/>
         
             <footer>Copyright Chelsey McKinney</footer>
@@ -100,12 +100,18 @@ body{
 
 h1{
   color:#123c69;
+  font-size: 30px;
+
 }
 
-h3{
-  font-size: 25px;
+h3,h4{
+  font-size: 23px;
+  color:black;
 }
 
+.about-link{
+  color:#123c69;
+}
 
 #app {
   font-family: 'Lato', sans-serif;
