@@ -1,27 +1,29 @@
 <template>
   <div id="app">
-      <div class="navbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="now.html">Now</a>
-        <!-- <a href="work.html">Work</a> -->
-        <a href="contact.html">Contact</a>
-      </div>
-      <hr/>
+     
+      <div class="nav">
+      <ul>
+        <li class="home"><a href="home.html">Home</a></li>
+        <li class="about"><a class="active" href="about.html">About</a></li>
+        <li class="now"><a href="now.html">Now</a></li>
+        <li class="contact"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  
+      
     <h1>Now Page</h1>
     <div class="now-pg">
       <h3>Inspired by Derek Siver's,<a href="https://sivers.org/nowff">'now page'</a> movement, a now page answers the question, "What Are You Focused On Now?"</h3>
-        <ul>
+        <ul class="now">
           <li><b>Current Job:</b> Full Stack Developer for The City of St.Paul</li>
           <li><b>For Fun:</b> I am doing the <a href="https://www.100daysofcode.com/">#100DaysOfCode Challenge</a> for a second time. 
             I do daily updates on my <a href="https://twitter.com/TechChelsey">Twitter</a> page.</li>
           <li><b>What I'm Reading:</b> "Red At The Bone" by Jacqueline Woodson & "Here Comes The Sun" by Nicole Dennis-Benn</li>
           <li><b>Who I'm Listening To:</b> Leikeli47, Megan Thee Stallion, Rico Nasty, & Doja Cat</li>
         </ul>
-          <hr/>
+      
+        <br/>  
       <!--Recent work section-->
-          <h2>Labors Of Love</h2>
-      <!--include dev.to link posts of 100days talk, jr. devs talk, and doing the challenge again-->
       <div class="grid-container">
         <div class="card">
           <div class="bg-img"></div>
@@ -31,7 +33,7 @@
               Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
               Tech Talk given at Minnebar in April 2019. </p> 
             <button class="center"><a href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read</a></button> </div>
-        </div>
+      </div>
 
         <div class="card">
           <div class="bg-img"></div>
@@ -52,7 +54,7 @@
             <h3>My Love Of Semicolons</h3>
             <p>Last summer, I worked as an intern for a company called Software for Good.  
               During my internship, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
-            <button class= "center"><a href="https://softwareforgood.com/my-love-of-semicolons/">Read</a></button></div>
+            <button class="center"><a href="https://softwareforgood.com/my-love-of-semicolons/">Read</a></button></div>
         </div>
 
         <div class="card">
@@ -125,55 +127,105 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-// body{
-   
-  
-// }
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffff;
+}
 
 .home-title{
   font-size:95px;
 }
 
-/* Style the navigation menu */
-.navbar {
-  width: 100%;
-  // background-color: #ac3b61;
-  overflow: auto;
-}
 
-/* Navigation links */
-.navbar a {
-  float: left;
-  padding: 15px;
-  color: #123c69;
+.nav ul {
+  list-style: none;
+  background-color:#123c69;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  font-family:'Times New Roman', Times, serif;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
   text-decoration: none;
-  font-size: 30px;
-  // border: 1px solid black;
-  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
 }
-
-/* Add a background color on mouse-over */
-.navbar a:hover{ 
-  background-color: #ac3b61 ;
+ 
+.nav a:hover {
+  background-color: #D1DBE9;
 }
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #456DA5;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 
-/* Style the current/active link */
-// .navbar a.active {
-//   background-color: #123c69;
+/* Style the navigation menu */
+/*initial stylings*/
+// .navbar {
+//   width: 100%;
+//   // background-color: #ac3b61;
+//   overflow: auto;
 // }
 
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    //text-align: left; /* If you want the text to be left-aligned on small screens */
-  }
-}
+/* Navigation links */
+// .navbar a {
+//   float: left;
+//   padding: 15px;
+//   color: #123c69;
+//   text-decoration: none;
+//   font-size: 30px;
+//   // border: 1px solid black;
+//   width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+//   text-align: center; /* If you want the text to be centered */
+// }
 
-/*header stylings*/
+/* Add a background color on mouse-over */
+// .navbar a:hover{ 
+//   background-color: #ac3b61 ;
+// }
+
+// /* Style the current/active link */
+// // .navbar a.active {
+// //   background-color: #123c69;
+// // }
+
+// /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+// @media screen and (max-width: 500px) {
+//   .navbar a {
+//     float: none;
+//     display: block;
+//     width: 100%;
+//     //text-align: left; /* If you want the text to be left-aligned on small screens */
+//   }
+// }
+
+ /*header stylings*/
 h1{
   color:#123c69;
   text-align: center;
@@ -181,7 +233,7 @@ h1{
 
 h2{
   text-align: center;
-  font-size:22px;
+  font-size:34px;
 
 }
 
@@ -192,8 +244,8 @@ h3{
 
 }
 
-ul{
-  list-style-type: circle;
+ .now{
+   list-style-type: circle;
   font-size: 20px;
 }
 
@@ -247,5 +299,7 @@ ul{
   //text-align: center;
   color: #123c69;
   margin-top: 60px;
+}
+
 }
 </style>
