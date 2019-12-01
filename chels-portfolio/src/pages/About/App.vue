@@ -8,7 +8,7 @@
       <!-- <a href="work.html">Work</a> -->
       <a href="contact.html">Contact</a>
     </div>
-    <hr/>
+    <br/>
     <!-- <h1>About Me</h1> -->
       <div class="about-pg">
         <h1>Hello I'm Chelsey!</h1>
@@ -38,7 +38,8 @@
               Anything else, you can keep up with me on any one of the sites listed on my <a href="contact.html">Contact Page</a>, or download my <a href="">resume</a>. 
 
             </h3>
-        <hr/>
+            <br/>
+        
             <footer>Copyright Chelsey McKinney</footer>
         </div>
   </div>
@@ -55,14 +56,14 @@ export default {
 
 body{
   // background-color: #eee2dc;
-  background-color:#edc7b7;
+  background-color:#fff;
   
 }
 
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  // background-color: #ac3b61;
+  background-color: #123c69;
   overflow: auto;
 }
 
@@ -70,7 +71,7 @@ body{
 .navbar a {
   float: left;
   padding: 12px;
-  color: #123c69;
+  color: #ffff;
   text-decoration: none;
   font-size: 35px;
   width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -79,7 +80,7 @@ body{
 
 /* Add a background color on mouse-over */
 .navbar a:hover{ 
-  background-color: #ac3b61 ;
+  background-color: #456DA5 ;
 }
 
 /* Style the current/active link */
@@ -100,6 +101,11 @@ body{
 h1{
   color:#123c69;
 }
+
+h3{
+  font-size: 25px;
+}
+
 
 #app {
   font-family: 'Lato', sans-serif;

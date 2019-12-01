@@ -1,15 +1,15 @@
 <template>
   <div id="app">
+
+     <div class="header">
+        <div class="navbar">
+          <a class="active" href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="now.html">Now</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div> 
      
-      <div class="nav">
-      <ul>
-        <li class="home"><a href="home.html">Home</a></li>
-        <li class="about"><a class="active" href="about.html">About</a></li>
-        <li class="now"><a href="now.html">Now</a></li>
-        <li class="contact"><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  
       
     <h1>Now Page</h1>
     <div class="now-pg">
@@ -146,52 +146,91 @@ body {
 }
 
 /*nav bar stylings*/
-.nav ul {
-  list-style: none;
-  background-color:#123c69;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+.navbar {
+  width: 100%;
+  background-color: #123c69;
+  overflow: auto;
 }
-.nav li {
-  font-size: 1.2em;
-  font-family:'Times New Roman', Times, serif;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.nav a {
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: #ffff;
   text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
+  font-size: 35px;
+  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
 }
- 
-.nav a:hover {
-  background-color: #D1DBE9;
+
+/* Add a background color on mouse-over */
+.navbar a:hover{ 
+  background-color: #456DA5 ;
 }
- 
-.nav a.active {
-  background-color: #fff;
-  color: #456DA5;
-  cursor: default;
-}
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
+
+/* Style the current/active link */
+// .navbar a.active {
+//   background-color: #123c69;
+// }
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    //text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
+
+
+
+// .nav ul {
+//   list-style: none;
+//   background-color:#123c69;
+//   text-align: center;
+//   padding: 0;
+//   margin: 0;
+// }
+// .nav li {
+//   font-size: 1.2em;
+//   font-family:'Times New Roman', Times, serif;
+//   line-height: 40px;
+//   height: 40px;
+//   border-bottom: 1px solid #888;
+// }
  
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
+// .nav a {
+//   text-decoration: none;
+//   color: #fff;
+//   display: block;
+//   transition: .3s background-color;
+// }
+ 
+// .nav a:hover {
+//   background-color: #D1DBE9;
+// }
+ 
+// .nav a.active {
+//   background-color: #fff;
+//   color: #456DA5;
+//   cursor: default;
+// }
+ 
+// @media screen and (min-width: 600px) {
+//   .nav li {
+//     width: 120px;
+//     border-bottom: none;
+//     height: 50px;
+//     line-height: 50px;
+//     font-size: 1.4em;
+//   }
+ 
+//   /* Option 1 - Display Inline */
+//   .nav li {
+//     display: inline-block;
+//     margin-right: -4px;
+//   }
 
  /*header stylings*/
 h1{
@@ -257,5 +296,4 @@ h3{
   margin-top: 60px;
 }
 
-}
 </style>
