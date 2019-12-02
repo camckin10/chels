@@ -38,7 +38,7 @@ body{
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  // background-color: #ac3b61;
+  background-color: #123c69;
   overflow: auto;
 }
 
@@ -46,16 +46,16 @@ body{
 .navbar a {
   float: left;
   padding: 12px;
-  color: #123c69;
+  color: #ffff;
   text-decoration: none;
   font-size: 35px;
-  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
 /* Add a background color on mouse-over */
 .navbar a:hover{ 
-  background-color: #ac3b61 ;
+  background-color: #456DA5 ;
 }
 
 /* Style the current/active link */

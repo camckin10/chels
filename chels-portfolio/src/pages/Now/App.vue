@@ -115,7 +115,7 @@
        </div>
 
       
-        <hr/>
+        <br/>
         <h4>Updated November 28, 2019</h4>
         <footer>Copyright Chelsey McKinney</footer>
     </div>
@@ -135,10 +135,12 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+
 body {
   margin: 0;
   padding: 0;
   background: #ffff;
+  // font-family: 'Cormorant Garamond', serif;
 }
 
 .home-title{
@@ -159,7 +161,7 @@ body {
   color: #ffff;
   text-decoration: none;
   font-size: 35px;
-  width: 17%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
@@ -182,55 +184,6 @@ body {
     //text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
-
-
-
-// .nav ul {
-//   list-style: none;
-//   background-color:#123c69;
-//   text-align: center;
-//   padding: 0;
-//   margin: 0;
-// }
-// .nav li {
-//   font-size: 1.2em;
-//   font-family:'Times New Roman', Times, serif;
-//   line-height: 40px;
-//   height: 40px;
-//   border-bottom: 1px solid #888;
-// }
- 
-// .nav a {
-//   text-decoration: none;
-//   color: #fff;
-//   display: block;
-//   transition: .3s background-color;
-// }
- 
-// .nav a:hover {
-//   background-color: #D1DBE9;
-// }
- 
-// .nav a.active {
-//   background-color: #fff;
-//   color: #456DA5;
-//   cursor: default;
-// }
- 
-// @media screen and (min-width: 600px) {
-//   .nav li {
-//     width: 120px;
-//     border-bottom: none;
-//     height: 50px;
-//     line-height: 50px;
-//     font-size: 1.4em;
-//   }
- 
-//   /* Option 1 - Display Inline */
-//   .nav li {
-//     display: inline-block;
-//     margin-right: -4px;
-//   }
 
  /*header stylings*/
 h1{

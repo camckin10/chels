@@ -8,9 +8,9 @@
         <!-- <a href="work.html">Work</a> -->
         <a href="contact.html">Contact</a>
       </div>
-      <hr class="blue-line"/>
+      <br/>
       <div class="contact">
-        <h1>Contact</h1>
+        <!-- <h1>Contact</h1> -->
         <!--table w/2 rows + 2 columns-->
         <!--Email,LinkedIn,Resume,Twitter-->
         <!-- <button>Button</button> -->
@@ -19,12 +19,15 @@
             <!--font awesome icon-->
               <!--Resume-->
               <a href=""><i class="far fa-file fa-6x"></i></a>
+              
               <!--email-->
              <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="far fa-envelope fa-6x"></i></a>
               <!--LinkedIn-->
              <a href="https://www.linkedin.com/in/chelseymckinney/"><i class="fab fa-linkedin fa-6x"></i></a>
               <!--Twitter-->
-              <a href="https://twitter.com/TechChelsey"><i class="fab fa-twitter fa-6x"></i></a>    
+              <a href="https://twitter.com/TechChelsey"><i class="fab fa-twitter fa-6x"></i></a>  
+              <!--Dev.to-->
+               <a href="https://dev.to/camckin10"><i class="fab fa-dev fa-6x"></i></a>      
         </div>  
       </div>  
   </div>
@@ -41,36 +44,36 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
 
 body{
-  background-color:  #edc7b7;
+  background-color:#fff;
+  
 }
 
 /* Style the navigation menu */
 .navbar {
   width: 100%;
-  // background-color: #ac3b61;
+  background-color: #123c69;
   overflow: auto;
+ 
 }
 
 /* Navigation links */
 .navbar a {
   float: left;
   padding: 12px;
-  color: #123c69;
+  color: #ffff;
   text-decoration: none;
   font-size: 35px;
-  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
+
 }
 
 /* Add a background color on mouse-over */
 .navbar a:hover{ 
-  background-color: #ac3b61 ;
+  background-color: #456DA5 ;
 }
 
-/* Style the current/active link */
-// .navbar a.active {
-//   background-color: #123c69;
-// }
+
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
@@ -78,14 +81,8 @@ body{
     float: none;
     display: block;
     width: 100%;
-    //text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
-
-.blue-line{
-  color:#123c69;
-}
-
 
 
 /*font awesome stylings*/
@@ -112,7 +109,7 @@ i{
   padding: 0.5em 1em;
 
   /* make sure colors have enough contrast! */
-  color: #ffffff;
+  color:#ffff;
   background-color: #ac3b61;
   Font-size:18px;
 }
@@ -129,7 +126,7 @@ i{
 // }
 
 a{
-  color:#ffffff;
+  color:black;
 }
 
 #app {
