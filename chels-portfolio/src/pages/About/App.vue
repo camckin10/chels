@@ -112,13 +112,13 @@ body{
 
 h1{
   color:#123c69;
-  font-variant: small-caps;
+  // font-variant: small-caps;
   font-size: 30px;
 
 }
 
 h3{
-  font-size: 19.5px;
+  font-size: 21px;
   line-height: 105%;
   color:black;
 
