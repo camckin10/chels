@@ -33,7 +33,7 @@
             <p>What happens when a junior dev stops coding for 3 months? 
               Learn about how unplugging from technology allowed me to grow immensely, and how I regained my faith in programming by completing a coding challenge. 
               Tech Talk given at Minnebar in April 2019. </p> 
-            <button class="center"><a href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read Article</a></button> </div>
+            <button class="center"><a class="button-link" href="https://dev.to/camckin10/6-life-lessons-in-tech-100-days-racism-and-starting-over-4h0p">Read Article</a></button> </div>
       </div>
 
         <div class="card">
@@ -45,7 +45,7 @@
               Lorem ipsum, or lipsum is dummy text used in laying out print, web design, and graphics.
               
               This project was made using HTML5, CSS3, and ExpressJS. </p> 
-            <button class="center"><a href="https://secret-temple-73467.herokuapp.com/">View App</a></button></div>
+            <button class="center"><a class="button-link" href="https://secret-temple-73467.herokuapp.com/">View App</a></button></div>
         </div>
 
         <div class="card">
@@ -57,7 +57,7 @@
             <hr/>
             <p>Last summer, I worked as an intern for a company called Software for Good.  
               During my internship, I wrote about my love of semicolons, and how programming has made me enjoy semicolons more.</p> 
-            <button class="center"><a href="https://softwareforgood.com/my-love-of-semicolons/">Read Article</a></button></div>
+            <button class="center"><a class="button-link" href="https://softwareforgood.com/my-love-of-semicolons/">Read Article</a></button></div>
         </div>
 
         <div class="card">
@@ -68,7 +68,7 @@
             <p>An app made during the 2019 'Hack The Gap' hackathon. 
             “Seshat Swap,” is a community book sharing app that would promote and share books with other users of color. Worked in a group with Lanice Sims, Jenessa White, and Shanise Barona. 
             Made using React and react strap. </p> 
-            <button class="center"><a href="https://agitated-swanson-0e797f.netlify.com/">View App</a></button></div>
+            <button class="center"><a class="button-link" href="https://agitated-swanson-0e797f.netlify.com/">View App</a></button></div>
           </div>
 
           <!--dev.to post #1 : 100 days tips-->
@@ -78,7 +78,7 @@
                 <h3>The Jr. Dev's Guide To Surviving The 100 Days Of Code Challenge</h3>
                 <hr/>
                 <p>A post about surviving the 100 Days Of Code Challenge. This article was originally given as a talk at the Minneapolis Jr. Dev Meetup in July 2019.</p> 
-                <button class="center"><a href="https://dev.to/camckin10/the-junior-dev-s-guide-to-completing-the-100-days-of-code-challenge-a-k-a-don-t-panic-5c37">Read Article</a></button></div>
+                <button class="center"><a class="button-link" href="https://dev.to/camckin10/the-junior-dev-s-guide-to-completing-the-100-days-of-code-challenge-a-k-a-don-t-panic-5c37">Read Article</a></button></div>
             </div> 
 
           <!--ignite talk-->
@@ -88,7 +88,7 @@
                 <h3>DevOps Minneapolis Ignite Talk</h3>
                 <hr/>
                 <p>An Ignite Talk I gave during DevOps Minneapolis in August 2019. The ignite was about starting over in programming after not coding for 3 months. This ignite talk is a 5 min version of a talk I gave at Minnebar in April 2019. </p> 
-                <button class="center"><a href="https://www.youtube.com/watch?v=SrrA2o2BkdI">Watch Video</a></button></div>
+                <button class="center"><a class="button-link" href="https://www.youtube.com/watch?v=SrrA2o2BkdI">Watch Video</a></button></div>
             </div> 
           <!--dev.to post #2: 2nd time doing challenge -->
 
@@ -98,7 +98,7 @@
                 <h3>My 2nd Time Doing The 100 Days Of Code Challenge</h3>
                 <hr/>
                 <p>Dev.to post about participating in the 100 days of code challenge a second time. I'm doing the challenge for the second time in a year. :) </p> 
-                <button class="center"><a href="https://dev.to/camckin10/my-2nd-time-doing-the-100daysofcode-challenge-2246">Read Article</a></button></div>
+                <button class="center"><a class="button-link" href="https://dev.to/camckin10/my-2nd-time-doing-the-100daysofcode-challenge-2246">Read Article</a></button></div>
             </div> 
 
           <!--SFG TOTW--Universe will align-->
@@ -108,7 +108,7 @@
                 <h3>The Universe Will Align</h3>
                 <hr/>
                 <p>For my final week of my internship with Software For Good, I wrote the Theme Of The Week. The blog post is about seeing the positive of “moving on.” I loved writing it. I hope you enjoy! </p> 
-                <button class="center"><a href="https://softwareforgood.com/the-universe-will-align/">Read Article</a></button>
+                <button class="center"><a class="button-link" href="https://softwareforgood.com/the-universe-will-align/">Read Article</a></button>
                 </div>
             </div> 
 
@@ -238,8 +238,9 @@ h3{
     background-color: #456DA5;
   }
 
-  a{
-    color:black;
+  .button-link{
+    color:#fff;
+    text-decoration: none;
   }
 
 #app {
