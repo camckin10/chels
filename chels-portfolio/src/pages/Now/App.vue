@@ -20,6 +20,7 @@
             I do daily updates on my <a href="https://twitter.com/TechChelsey">Twitter</a> page.</li>
           <li><b>What I'm Reading:</b> "Red At The Bone" by Jacqueline Woodson & "Here Comes The Sun" by Nicole Dennis-Benn</li>
           <li><b>Who I'm Listening To:</b> Leikeli47, Megan Thee Stallion, Rico Nasty, & Doja Cat</li>
+          <li>test item</li>
         </ul>
       
         <br/>  
