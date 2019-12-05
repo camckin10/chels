@@ -3,7 +3,7 @@
 
      <div class="header">
         <div class="navbar">
-          <a class="active" href="home.html">Home</a>
+          <a class="active" href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="now.html">Now</a>
           <a href="contact.html">Contact</a>
@@ -20,7 +20,7 @@
             I do daily updates on my <a href="https://twitter.com/TechChelsey">Twitter</a> page.</li>
           <li><b>What I'm Reading:</b> "Red At The Bone" by Jacqueline Woodson & "Here Comes The Sun" by Nicole Dennis-Benn</li>
           <li><b>Who I'm Listening To:</b> Leikeli47, Megan Thee Stallion, Rico Nasty, & Doja Cat</li>
-          <li>test item</li>
+       
         </ul>
       
         <br/>  

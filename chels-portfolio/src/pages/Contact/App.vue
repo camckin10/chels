@@ -18,7 +18,7 @@
             <!--current contact pg stylings-->
             <!--font awesome icon-->
               <!--Resume-->
-              <a href=""><i class="far fa-file fa-6x"></i></a>
+              <a href="CAM_Resume.pdf"><i class="far fa-file fa-6x"></i></a>
               
               <!--email-->
              <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><i class="far fa-envelope fa-6x"></i></a>
