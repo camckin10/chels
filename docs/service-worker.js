@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chels/precache-manifest.bdbe23d78565c03494a507c8472c7e58.js"
+  "/chels/precache-manifest.789184a71546867824fd10b1fc6e4b02.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "chels-portfolio"});
